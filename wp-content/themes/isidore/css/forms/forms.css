@@ -1,0 +1,76 @@
+body{
+    background-color: #fff !important;
+}
+.df-header-container{
+    margin-top: 2%;
+}
+.margin-bottom{
+    margin-bottom: 2%;
+}
+.btn-container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.btn-download-reg-form{
+    color: white;
+    background-color: #FB6921;
+    padding: 1% 10% 1% 10%;
+}
+.btn-download-reg-form:hover{
+    color: #FB6921;
+    background-color: white;
+    padding: 1% 10% 1% 10%;
+    text-decoration: none;
+    border: 2px solid #FB6921;
+}
+.border-gray{
+    border: 3px solid #EAEAEA;
+}
+.fh-heading-container{
+    margin-bottom: 0.6%;
+    border-bottom: 1px solid #EAEAEA;
+}
+.form-heading{
+    color:#FB6921;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.enrollment-forms{
+    color:#FB6921;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.content-form-container{
+    width: 75%;
+    margin-bottom: 10%;
+}
+.df-header{
+    color:#FB6921;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+@media only screen and (min-width: 2300px) and (max-width: 2560px){
+    .df-header {
+        font-size: 50px;
+    }
+    .enrollment-forms{
+        font-size: 40px;
+    }
+    .form-heading{
+        font-size: 35px;
+    }
+    .btn-download-reg-form{
+        font-size: 30px;
+    }
+}

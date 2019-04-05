@@ -1,0 +1,126 @@
+body{
+    background-color: #fff !important;
+}
+@media (min-width: 320px) {
+    .header-gr{
+        font-size: 20px;
+        padding-top: 0%;
+        padding-bottom: 1%;
+        color: #73D673;
+    }
+    .firstcharacter{
+        color: #73D673;
+    }
+    .fp-pr{
+        font-size: 12px !important;
+        padding: 0%;
+        margin-left: 0%;
+    }
+    .fp-prtwo{
+        margin-left: 0% !important;
+        padding: 0%;
+    }
+    .content-words {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+    h2.pr-header {
+        padding: 0%;
+        color: #73D673;
+        font-size: 15px !important;
+    }
+    p.pr-descrip {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    li.pr-bullet{
+        font-size: 12px !important;
+    }
+    .gr-bullet-contents {
+        padding-bottom: 0;
+    }
+}
+@media (min-width: 768px) {
+    .header-gr{
+        font-size: 25px;
+    }
+    .fp-pr, .fp-prtwo{
+        font-size: 15px !important;
+        padding: 0%;
+        margin-left: 0%;
+    }
+    .content-words {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+    p.pr-descrip {
+        margin-left: 0;
+        font-size: 15px !important;
+        padding-left: 0%;
+        padding-right:0%;
+    }
+    li.pr-bullet{
+        font-size: 15px !important;
+    }
+    h2.pr-header {
+        margin-left: 0;
+    }
+}
+@media (min-width: 1024px) {
+    .header-gr{
+        font-size: 25px;
+    }
+    .fp-pr, .fp-prtwo{
+        font-size: 20px !important;
+    }
+    p.pr-descrip, h2.pr-header {
+        font-size: 20px !important;
+    }
+    li.pr-bullet{
+        font-size: 20px !important;
+    }
+    .firstcharacter{
+        font-size: 89px;
+    }
+}
+@media (min-width: 1440px) {
+    .header-gr{
+        font-size: 35px;
+    }
+    .fp-pr, .fp-prtwo{
+        font-size: 25px !important;
+    }
+    p.pr-descrip, h2.pr-header {
+        font-size: 25px !important;
+    }
+    li.pr-bullet{
+        font-size: 25px !important;
+    }
+    .firstcharacter{
+        font-size: 92px;
+    }
+}
+@media (min-width: 2560px) {
+    .container {
+        width: 970px !important;
+    }
+    .header-gr{
+        font-size: 40px;
+    }
+    .fp-pr, .fp-prtwo{
+        font-size: 35px !important;
+    }
+    p.pr-descrip, h2.pr-header {
+        font-size: 35px !important;
+        padding-left: 0% !important;
+    }
+    li.pr-bullet{
+        font-size: 35px !important;
+    }
+    .firstcharacter{
+        font-size: 190px;
+    }
+    .content-words {
+        padding-top: 5%;
+    }
+}

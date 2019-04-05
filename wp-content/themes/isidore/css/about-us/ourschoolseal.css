@@ -1,0 +1,255 @@
+body{
+    background-color: #fff !important;
+}
+.isidore-logo-seal{
+    width: 35%;
+    margin-bottom: 3%;
+    
+}
+.isidore-logo-seal-2{
+    width: 35%;
+    margin-bottom: 3%;
+    margin-right: 4%;
+}
+
+body{
+    background-color: #fff !important;
+}
+.img-saint-isidore-2{
+    width: 100%;
+    margin-right: 4%;
+}
+.img-saint-isidore{
+    width: 45%;
+    margin-right: 4%;
+}
+.header-banner{
+    height: 200px;
+    background-image: url(../../images/whoisisidore/header-bg.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-heading-container{
+    width: 340px;
+    color: white;
+    position: relative;
+    left: 8%;
+    top: 10%;
+}
+.header-heading{
+    font-weight: lighter;
+    letter-spacing: 3px;
+    line-height: 66px;
+}
+.bold{
+    font-weight: 900;
+}
+.wii-content-container {
+    margin-top: 0% !important;
+    background-color: #fff;
+}
+.history-content-container{
+    margin-top: 0% !important;
+    background-color: #fff;
+}
+.wii-content , .history-content{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 13%;
+    margin-top: -50px;
+}
+.wii-content p, .history-content p{
+    position: relative;
+    z-index: 10 !important;
+    text-indent: 50px;
+}
+.wii-heading-container, .history-heading-container{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.sun-thumb2{
+    position: absolute;
+    z-index: 1 !important;
+    left:76%;
+    width: 19%;
+}
+@media (min-width: 320px){
+    .header-heading{
+        font-weight: lighter;
+        letter-spacing: 3px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .header-heading-container {
+        width: 243px;
+        position: relative;
+        left: 8%;
+        top: 20%;
+    }
+    .wii-heading, .history-heading{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: Raleway-ExtraBold;
+        color: #E6414D;
+    }
+    .history-content, .wii-content{
+        font-size: 12px;
+    }
+    .wii-heading-container hr, .history-heading-container hr{
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #E6414D;
+        margin-top: 5px;
+        width: 25%;
+    }
+    .bag-thumb2{
+        position: relative;
+        z-index: 1 !important;
+        left: 5%;
+        width: 15%;
+        top: -60px;
+    }
+    .lightbulb-thumb1 {
+        position: relative;
+        z-index: 1 !important;
+        left: 76%;
+        top: -10px;
+        width: 13%;
+    }
+    .bag-thumb1 {
+        position: relative;
+        z-index: 1 !important;
+        left: 62%;
+        top: -59px;
+        width: 10%;
+    }
+    .pencil-thumb1 {
+        position: relative;
+        z-index: 1 !important;
+        left: 10%;
+        top: -55px;
+        width: 13%;
+    }
+}
+@media (min-width: 768px) {
+    .header-banner {
+        height: 300px;
+    }
+        .header-banner {
+            background-position: center 25%;
+        }
+    .header-heading{
+        line-height: 55px;
+        font-size: 35px;
+    }
+    .header-heading-container {
+        width: 243px;
+        position: relative;
+        left: 8%;
+        top: 20%;
+    }
+    .wii-heading, .history-heading{
+        font-size: 25px;
+    }
+    .history-content, .wii-content{
+        font-size: 15px;
+    }
+    .wii-heading-container hr, .history-heading-container hr{
+        width: 12%;
+    }
+    .bag-thumb2{
+        top: -145px;
+    }
+    .pencil-thumb1 {
+        position: relative;
+        z-index: 1 !important;
+        left: 10%;
+        top: -71px;
+        width: 10%;
+    }
+    .bag-thumb1 {
+        left: 65%;
+        top: -74px;
+        width: 8%;
+    }
+    .lightbulb-thumb1 {
+        left: 76%;
+        top: -45px;
+        width: 10%;
+    }
+    .wii-content, .history-content {
+        margin-top: -90px;
+    }
+}
+@media (min-width: 1024px) {
+    .wii-heading-container hr, .history-heading-container hr{
+        width: 7%;
+    }
+    .bag-thumb2 {
+        top: -180px;
+    }
+    .wii-content, .history-content {
+        margin-top: -120px;
+        font-size: 25px;
+    }
+    .history-content, .wii-content {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1440px) {
+    .header-heading{
+        line-height: 59px;
+        font-size: 38px;
+    }
+    .wii-heading, .history-heading{
+        font-size: 35px;
+    }
+    .history-content, .wii-content{
+        font-size: 25px;
+    }
+    .wii-heading-container hr, .history-heading-container hr{
+        width: 12%;
+    }
+    .bag-thumb2 {
+        top: -290px;
+    }
+    .lightbulb-thumb1 {
+        left: 82%;
+        top: 40px;
+        width: 5%;
+    }
+    .bag-thumb1 {
+        left: 77%;
+        top: -104px;
+        width: 5%;
+    }
+    .pencil-thumb1 {
+        width: 5%;
+    }
+}
+@media (min-width: 2560px) {
+    .header-banner {
+        height: 550px;
+    }
+    .header-heading-container {
+        width: 355px;
+    }
+    .header-heading{
+        line-height: 85px;
+        font-size: 50px;
+    }
+    .wii-heading, .history-heading{
+        font-size: 45px;
+    }
+    .history-content, .wii-content{
+        font-size: 35px;
+    }
+    .wii-heading-container hr, .history-heading-container hr{
+        width: 7%;
+    }
+    .bag-thumb2 {
+        top: -450px;
+    }
+}

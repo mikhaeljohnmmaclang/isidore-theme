@@ -1,0 +1,127 @@
+body{
+    background-color: #fff !important;
+}
+
+.outer-calendar-content-container{
+    margin-bottom: 10%;
+}
+.calendar-thumb{
+    /*margin-top: -14%;
+    z-index: 3;
+    position: relative;
+    width: 14%;
+    float: right;*/
+     width: 5%;
+    margin-right: 2%;
+}
+.calendar-thumb1{
+    /*margin-top: -14%;
+    z-index: 3;
+    position: relative;
+    width: 14%;
+    float: right;*/
+     width: 20%;
+}
+.content{
+    padding: 4% 10% 10% 10%;
+}
+.academic-content-container{
+    position: relative;
+    z-index: 2;
+    border: 2px solid #B7B6B6;
+    border-style:dashed;
+    padding: 6%;
+    background-color: #fff;
+}
+.academic-content-container h2{
+    color:#39A7FC;
+}
+
+.row-description{
+    border-top:  1px solid #E7E7E7;
+    border-bottom:  1px solid #E7E7E7;
+    width: 100%;
+    float: right;
+    padding-top: 0.8%;
+    padding-bottom: -2%;
+}
+
+.top-graphics-container{
+    z-index: -1;
+    position: relative;
+    margin-bottom: -8%;
+    margin-top: 5%;
+}
+.top-graphics{
+    width: 100%;
+}
+.calendar-heading-container h1{
+    color: #39A7FC;
+    text-transform: uppercase;
+}
+.calendar-heading-container hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #39A7FC;
+    margin-top: 5px; 
+    width: 15%;
+}
+.bold{
+    font-weight: 900;
+}
+@media only screen and (max-width: 768px){
+    .row-desciption{
+        width: 100% !important;
+        float: none !important;
+    }
+}
+@media (min-width: 320px){
+    .wii-heading{
+        font-size: 30px;
+    }
+    .outer-calendar-content-container{
+        font-size: 12px;
+    }
+    .calendar-thumb{
+        margin-top: -1%;
+    }
+    .calendar-desscription, .calendar-month, .calendar-day{
+        font-size: 17px !important;
+    }
+}
+@media (min-width: 768px){
+    
+
+    .wii-heading{
+        font-size: 25px;
+    }
+    .outer-calendar-content-container{
+        font-size: 15px;
+    }
+}
+@media (min-width: 1024px){
+    .wii-heading{
+        font-size: 40px;
+       
+    }
+    .outer-calendar-content-container{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1440px){
+    .wii-heading{
+        font-size: 35px;
+    }
+    .outer-calendar-content-container{
+        font-size: 25px;
+    }
+}
+@media (min-width: 2560px){
+    .wii-heading{
+        font-size: 45px;
+    }
+    .outer-calendar-content-container{
+        font-size: 35px;
+    }
+}

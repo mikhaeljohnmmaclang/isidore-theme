@@ -1,0 +1,251 @@
+body{
+    background-color: #fff !important;
+}
+.info{
+    background: green;
+    color: white;
+    padding: 2%;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+.contact-info-container{
+    margin-top: 10%;
+}
+.contact-number{
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.contact-heading{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.careers-outer-container{
+    margin-top: 5%;
+    width: 70% !important;
+}
+.cf-heading{
+    background-color: #B97DB9;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2.5%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-forms-container{
+    border: 2px solid #EAEAEA;
+    padding: 3% 6% 3% 6%;
+    background-color: #F9F9F9;
+    padding-bottom: 6%;
+
+}
+.text-forms-container input{
+    margin-bottom: 2%;
+    background: white;
+    border-radius: 0px;
+
+}
+.text-forms-container button{
+    margin-bottom: 1%;
+    background-color: #B97DB9;
+    border-radius: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    width: 30%;
+
+}
+.contact-form-container{
+    margin-top: 3%;
+
+}
+.careers-outer-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 75%;
+}
+.grade-school{
+    color: #660510;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.teacher{
+    color: #660510;
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.header-banner{
+    height: 28em;
+    background-image: url(../../images/careers/53283470_1999442810360383_2910753474561966080_n.png);
+    background-position: top -60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-heading-container{
+    width: 340px;
+    color: white;
+    position: relative;
+    left: 8%;
+    top: 10%;
+}
+.header-heading{
+    font-weight: lighter;
+    letter-spacing: 3px;
+    line-height: 66px;
+}
+.bold{
+    font-weight: 900;
+}
+input[type=file] {
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    margin-bottom: 5%;
+}
+@media only screen and (min-width: 2300px) and (max-width: 2560px){
+    p{
+        font-size: 35px;
+    }
+    label{
+        font-size: 30px;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 30px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 30px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 30px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 30px;
+    }
+    .text-forms-container button{
+        font-size: 40px;
+       /* padding-bottom: 94px !important;*/
+        width: 100%;
+    }
+    .form-control{
+        padding: 36px 20px;
+    }
+    .contact-form{
+        height: 1166px !important;
+    }
+    .cf-heading{
+        font-size: 30px;
+    }
+    .teacher,.grade-school{
+        font-size: 50px;
+    }
+    .contact-heading{
+        font-size: 40px;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .careers-outer-container{
+        width: 80% !important;
+
+    }
+
+    .header-banner{
+        height: 20em;
+        background-image: url(../../images/careers/53283470_1999442810360383_2910753474561966080_n.png);
+        background-position: top -60px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    .header-banner{
+        height: 9em;
+        background-image: url(../../images/careers/53283470_1999442810360383_2910753474561966080_n.png);
+        background-position: top -60px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cf-heading {
+        background-color: #B97DB9;
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 2.5%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: -16%;
+        margin-left: -16%;
+    }
+
+    .text-forms-container input {
+        margin-bottom: 2%;
+        background: white;
+        border-radius: 0px;
+        padding: 5%;
+        margin: 5%;
+        margin-left: 0%;
+        margin-bottom: 10%;
+    }
+
+    input[type=file] {
+        display: block;
+        padding-top: 15%;
+        padding-bottom: 25%;
+        margin-bottom: 15%;
+    }
+
+    input.file-control{
+
+    }
+    .text-forms-container {
+        border: 2px solid #EAEAEA;
+        padding: 3% 6% 3% 6%;
+        background-color: #F9F9F9;
+        margin-right: -16%;
+        margin-left: -16%;
+        padding-bottom: 10%;
+    }
+    .header-heading{
+        font-weight: lighter;
+        letter-spacing: 3px;
+        line-height: 48px;
+        font-size: 24px;
+    }
+    .header-heading-container {
+        width: 243px;
+        position: relative;
+        left: 8%;
+        top: 20%; 
+    }
+
+    .contact-heading {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .contact-number {
+        color: black;
+        font-size: 25px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+}

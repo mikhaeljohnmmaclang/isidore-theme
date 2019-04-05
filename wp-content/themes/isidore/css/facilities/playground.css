@@ -1,0 +1,231 @@
+.btn-orange:hover{
+    text-decoration: none;
+    background-color: #ED8D68;
+    color: white;
+}
+.container-carousel{
+    padding: 0 !important;
+}
+
+@media (min-width: 320px) {
+    .btn-orange {
+        /*background-color: #ED8D68;*/
+        color: black;
+        padding: 3%;
+        border-radius: 5%;
+        text-decoration: none;
+        font-size: 11px;
+    }
+    .nav-list{
+        padding: 5%;
+    }
+    .box-div{
+        margin-top: -10%;
+    }
+    .owl-orange {
+        position: relative;
+        left: 86%;
+        z-index: 2;
+        width: 40px;
+        top: 10px;
+    }
+    .box-dash{
+        border: 2px solid gray;
+        border-style: dashed;
+        border-top: none;
+        border-top: none;
+        padding: 10%;
+        font-size: 12px;
+    }
+    .orange-box{
+        background-color: #ED8D68;
+        padding: 1%;
+        text-align: center;
+        font-family: Raleway-ExtraBold;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    .icon-pg {
+        position: relative;
+        width: 26%;
+        right: -72%;
+        top: -65px;
+    }
+    .border-style{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .lower-border{
+        width: 150%;
+    }
+    .upper-border, .lower-border{
+        width: 150%;
+    }
+    .breadcrumbs{
+        margin-top:5%;
+        margin-left:5%;
+    }
+    a.back-facilities{
+        color:#ED8D68;
+        font-weight:bolder;
+    }
+    a.back-facilities:hover{
+        color:#e4541b;
+        font-weight:bolder;
+    }
+    a.back-facilities1:focus{
+        color:#e4541b;
+        font-weight:bolder;
+    }
+}
+@media (min-width: 425px) {
+    .owl-orange {
+        left: 87%;
+        z-index: 2;
+        width: 47px;
+        top: 3px;
+    }
+    .icon-pg {
+        width: 20%;
+        right: -79%;
+        top: -51px;
+    }
+}
+@media (min-width: 768px){
+    .box-div {
+        margin-top: 5%;
+    }
+    .box-dash{
+        font-size: 15px;
+    }
+    .owl-orange {
+        left: -6%;
+        z-index: 2;
+        width: 50px;
+        top: 15px;
+    }
+    .icon-pg {
+        width: 17%;
+        right: -70%;
+        top: -83px;
+    }
+    .nav-list {
+        padding: 2%;
+    }
+    .btn-orange{
+        padding: 1%;
+    }
+    .breadcrumbs {
+        margin-top:1%;
+        margin-left:5%;
+    }
+}
+@media (min-width: 992px) {
+    .icon-pg {
+        width: 11%;
+        right: 14%;
+        top: 288px;
+    }
+    .lower-border{
+        margin-top: 5%;
+    }
+}
+@media (min-width: 1024px) {
+    .lower-border {
+        margin-top: 5%;
+    }
+    .owl-orange{
+        left: -6%;
+        width: 55px;
+        top: -5px;
+    }
+    .nav-list {
+        padding: 3%;
+    }
+    .icon-pg{
+        width: 14%;
+        right: 15%;
+        top: 287px;
+    }
+    .btn-orange{
+        padding: 1%;
+        letter-spacing: 2px;
+    }
+    .upper-border, .lower-border{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1190px) {
+    .nav-list {
+        padding: 2%;
+    }
+    .owl-orange{
+        right: 16%;
+        width: 6%;
+        top: 5px;
+    }
+    .icon-pg {
+        width: 12%;
+        right: 16%;
+        top: 305px;
+    }
+    .box-dash{
+        font-size: 17px !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .owl-orange{
+        right: 5%;
+        width: 100px;
+        top:-35px;
+    }
+    .icon-pg {
+        top: 480px;
+        width: 12%;
+        right: 17%;
+    }
+    .box-dash {
+        font-size: 25px!important;
+    }
+    .orange-box{
+        font-size: 35px;
+    }
+    .box-div {
+        margin-top: 1%;
+    }
+    .breadcrumbs{
+        margin-top:5%;
+        margin-left:5%;
+        margin-bottom:5%;
+        font-size:20px;
+    }
+}
+
+@media (min-width: 2560px){
+    .box-dash {
+        font-size: 35px!important;
+    }
+    .orange-box{
+        font-size: 40px;
+    }
+    .breadcrumbs{
+        margin-top:5%;
+        margin-left:5%;
+        margin-bottom:5%;
+        font-size:30px;
+    }
+    .owl-orange{
+        width: 170px;
+        top:-90px;
+    }
+    .icon-pg{
+        top: 520px;
+        width: 12%;
+        right: 16%;
+    }
+}
+/*closing of 2560px*/

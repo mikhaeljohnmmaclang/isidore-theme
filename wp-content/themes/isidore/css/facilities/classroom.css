@@ -1,0 +1,208 @@
+.btn-orange:hover{
+    text-decoration: none;
+    background-color: #ED8D68;
+    color: white;
+}
+.container-carousel{
+    padding: 0 !important;
+}
+
+@media (min-width: 320px) {
+    .btn-orange {
+        /*background-color: #ED8D68;*/
+        color: black;
+        padding: 3%;
+        border-radius: 5%;
+        text-decoration: none;
+        font-size: 11px;
+    }
+    .nav-list{
+        padding: 5%;
+    }
+    .box-div{
+        margin-top: -10%;
+    }
+    .owl-orange {
+        position: relative;
+        left: 86%;
+        z-index: 2;
+        width: 40px;
+        top: 10px;
+    }
+    .box-dash{
+        border: 2px solid gray;
+        border-style: dashed;
+        border-top: none;
+        border-top: none;
+        padding: 10%;
+        font-size: 12px;
+    }
+    .orange-box{
+        background-color: #ED8D68;
+        padding: 1%;
+        text-align: center;
+        font-family: Raleway-ExtraBold;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    .icon-school {
+        position: relative;
+        width: 26%;
+        right: -72%;
+        top: -46px;
+    }
+
+    .breadcrumbs{
+        margin-top:5%;
+        margin-left:5%;
+    }
+    a.back-facilities{
+        color:#ED8D68;
+        font-weight:bolder;
+    }
+    a.back-facilities:hover{
+        color:#e4541b;
+        font-weight:bolder;
+    }
+    a.back-facilities1:focus{
+        color:#e4541b;
+        font-weight:bolder;
+    }
+}
+@media (min-width: 425px) {
+    .owl-orange {
+        left: 87%;
+        z-index: 2;
+        width: 47px;
+        top: 3px;
+    }
+    .icon-school {
+        width: 20%;
+        right: -79%;
+        top: -51px;
+    }
+}
+@media (min-width: 768px){
+    .box-div {
+         margin-top: 3%;
+    }
+    .box-dash{
+        font-size: 15px;
+    }
+    .owl-orange {
+        left: -6%;
+        z-index: 2;
+        width: 50px;
+    }
+    .icon-school {
+        width: 17%;
+        right: -70%;
+        top: -83px;
+    }
+    .nav-list {
+        padding: 2%;
+    }
+    .btn-orange{
+        padding: 1%;
+    }
+    .breadcrumbs {
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+}
+@media (min-width: 992px) {
+    .icon-school {
+        width: 12%;
+        right: 15%;
+        top: 217px;
+    }
+    .lower-border{
+        margin-top: 5%;
+    }
+}
+@media (min-width: 1024px) {
+    .lower-border {
+        margin-top: 5%;
+    }
+    .owl-orange {
+        left: -6%;
+        width: 55px;
+        top: -40px;
+    }
+    .nav-list {
+        padding: 3%;
+    }
+    .icon-school{
+        width: 10%;
+        right: 14%;
+        top: 155px;
+    }
+    .btn-orange{
+        padding: 1%;
+        letter-spacing: 2px;
+    }
+    .box-div {
+        margin-top: 0%;
+    }
+    .orange-box span{
+        font-size: 25px;
+    }
+    .box-dash p, .nav-list{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1190px) {
+    .nav-list {
+        padding: 2%;
+    }
+    .owl-orange{
+        left: -4%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .owl-orange{
+        top:-50px;
+        right: 5%;
+        width: 75px;
+    }
+    .icon-school {
+        top: 200px;
+        width: 10%;
+        right: 13%;
+    }
+    .box-dash {
+        font-size: 20px;
+    }
+    .orange-box span{
+        font-size: 35px;
+    }
+    .box-dash p, .btn-orange{
+        font-size: 25px;
+    }
+    .breadcrumbs{
+        font-size: 20px;
+    }
+}
+@media (min-width: 2560px) {
+    .orange-box span{
+        font-size: 45px;
+    }
+    .box-dash p, .btn-orange{
+        font-size: 35px;
+    }
+    .owl-orange{
+        width: 95px;
+    }
+    .icon-school {
+        top: 270px;
+        width: 8%;
+        right: 10%;
+    }
+    .breadcrumbs {
+        font-size: 25px;
+    }
+}

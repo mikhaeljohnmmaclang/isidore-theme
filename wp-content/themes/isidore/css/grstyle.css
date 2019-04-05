@@ -1,0 +1,230 @@
+/* css grade school */
+.firstcharacters {
+    color: #73D673;
+    float: left;
+    font-family: Raleway-Extrabold;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+
+p.fp-gr{
+    font-size: 1.6em !important;
+    font-family: 'Raleway', sans-serif;
+    /*text-align: justify;
+    text-justify: inter-word;*/
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+p.fp-grtwo{
+    font-size: 1.3em !important;
+    font-family: 'Raleway', sans-serif;
+    /*text-align: justify;
+   text-justify: inter-word;*/
+    padding-right: 5%;
+    padding-bottom: 2%;
+}
+
+
+.upper-border-gradeschool{
+    width: 100%;
+    height: 6em !important;
+}
+
+
+
+.gr-bullet{
+    font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+section.grade-school-content{
+    padding-top: 5%;
+}
+
+.header-gr{
+    font-family: Raleway-ExtraBold;
+    font-weight: 900;
+    color: #73D673;
+    font-size: 4em;
+    padding-bottom: 10%;
+}
+
+.container-hero-gradeschool{
+    width: 100%;
+    height: 45em;
+    background-image: url(../images/assets/banner-gr.png);
+    background-size: cover;
+
+}
+
+#grschool-contents{
+    background-color: white;
+}
+
+.upper-graphics{
+    position: relative;
+    float: left;
+    width: 51%;
+    margin-top: -8%;
+    z-index: 12;
+    padding-left: 0%;
+    padding-top: 3%;
+}
+
+.upper-graphicsright{
+    position: relative;
+    float: right;
+    width: 49%;
+    margin-top: -8%;
+    z-index: 12;
+    padding-left: 1%;
+    padding-top: 0%;
+    margin-top: -5%;
+}
+
+.gr-bullet-contents{
+    background-color: white;
+    border-style: dashed;
+    border-color: #d2d1d1;
+    padding-bottom: 3%;
+}
+
+.content-words{
+    padding-top:10%;
+    padding-left: 3%;
+}
+
+.lower-graphics{
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-top: -8%;
+    z-index: 12;
+    padding-left: -2%;
+}
+
+.lower-graphicsright{
+    position: relative;
+    float: right;
+    width: 49%;
+    margin-top: -8%;
+    z-index: 12;
+    padding-left: -2%;
+}
+
+img.gr-hero{
+    width: 100%;
+    height: 47.5em;
+}
+
+
+img.pr-hero{
+    width: 100%;
+    height: 47.5em;
+}
+
+/*media quaries*/
+
+@media (min-width: 320px) {
+    .header-gr {
+        font-size: 20px !important;
+        padding-bottom: 4% !important;
+    }
+    p.fp-gr, p.fp-grtwo {
+        font-size: 12px !important;
+    }
+    .content-words {
+        padding-top: 3% !important;
+        padding-left: 0% !important;
+        padding-right: 5% !important;
+    }
+    .gr-bullet {
+        font-size: 12px !important;
+    }
+}
+@media (min-width: 768px) {
+    .header-gr {
+        font-size: 25px;
+    }
+    p.fp-gr, p.fp-grtwo {
+        font-size: 15px !important;
+        padding-top: 3%;
+        padding-right: 0% !important;
+        padding-bottom: 2%;
+    }
+    .content-words {
+        padding-top: 2% !important;
+        padding-left: 0% !important;
+        padding-right: 2% !important;
+    }
+    .gr-bullet {
+        font-size: 15px !important;
+    }
+}
+@media (min-width: 1024px) {
+    .header-gr {
+        font-size: 25px !important;
+    }
+    p.fp-gr, p.fp-grtwo {
+        font-size: 20px !important;
+    }
+    .content-words {
+        padding-top: 2% !important;
+        padding-left: 2% !important;
+        padding-right: 5% !important;
+    }
+    .gr-bullet {
+        font-size: 20px !important;
+
+    }
+}
+@media (min-width:1440px) {
+    .header-gr {
+        font-size: 35px !important;
+    }
+    p.fp-gr, p.fp-grtwo {
+        font-size: 25px !important;
+    }
+    .content-words {
+        padding-top: 2% !important;
+        padding-left: 2% !important;
+        padding-right: 5% !important;
+    }
+    .gr-bullet {
+        font-size: 25px !important;
+    }
+}
+@media (min-width: 2560px) {
+    .header-gr {
+        font-size: 45px !important;
+    }
+    p.fp-gr, p.fp-grtwo {
+        font-size: 35px !important;
+    }
+    .content-words {
+        padding-top: 2% !important;
+        padding-left: 4% !important;
+        padding-right: 5% !important;
+    }
+    .gr-bullet {
+        font-size: 35px !important;
+    }
+    .firstcharacters {
+        font-family: Georgia;
+        font-size: 135px;
+        line-height: 100px;
+        padding-top: 0px;
+        padding-right: 8px;
+        padding-left: 3px;
+    }
+    .gr-bullet-contents {
+        padding-bottom: 2%;
+    }
+}

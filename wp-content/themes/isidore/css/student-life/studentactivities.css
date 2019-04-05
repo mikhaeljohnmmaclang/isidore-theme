@@ -1,0 +1,133 @@
+
+.box-shadow{
+    box-shadow: 3px 3px #CACACA;
+}
+.margin-top{
+    margin-top: -30px !important;
+}
+.custom-height{
+    height: 395px !important;
+}
+.desc-container{
+    height: 150px !important;  
+}
+.content-container{
+    margin-bottom: 5%;
+}
+.bg-white{
+    background-color: WHITE;
+}
+.margin-bottom{
+    margin-bottom: 2%;
+}
+.btn-show-gallery{
+    background: #48A6DD;
+    padding: 1.6% 7% 1.6% 7%;
+    color: white;
+}
+
+.btn-show-gallery:hover{
+    background: white;
+    padding: 1.6% 7% 1.6% 7%;
+    color: #48A6DD;
+    border: 1px solid #48A6DD; 
+    text-decoration: none;
+}
+.btn-container-show-gallery{
+    /* margin-top: 8%;
+    margin-bottom: 8%;*/
+}
+.activity-content{
+    padding: 1% 2% 2% 6% !important;
+}
+.activity-heading{
+    color: #48A6DD;
+    margin-top: 4%;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.activity-description{
+    color: #474848;
+    text-align: justify;
+    font-size: 15px;
+}
+.padding-left{
+    padding-left: 10px !important;
+}
+.padding-right{
+    padding-right: 10px !important;
+}
+.activity-img{
+    width: 100%;
+}
+.studentact-heading-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.studentact-heading-container hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #48A6DD;
+    margin-top: 5px; 
+    width: 100%;
+}
+.studentact-heading{
+    color:#48A6DD;
+    font-weight: 600;
+}
+
+.upper-border{
+    width: 100%;
+
+}
+.lower-border{
+    width: 100%;
+    margin-top: -1%;
+}
+@media only screen and (min-width: 2300px) and (max-width: 2560px){
+    .container{
+        width: 2000px !important
+    }
+    .activity-heading{
+        font-size: 40px; 
+    }
+    .activity-description{
+        font-size: 30px;
+    }
+    .btn-container-show-gallery{
+        margin-top: 13% !important;
+    }
+    .btn-show-gallery{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .margin-top {
+        margin-top: -3px !important;
+    }
+    .margin-top2{
+        margin-top: 5%;
+    }
+    .custom-height {
+        height: 320px !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .btn-container-show-gallery{
+        margin-top: 8% !important;
+        margin-bottom: 18% !important;
+    }
+    .activity-heading{
+        text-align: center;
+    }
+    .desc-container{
+        height: auto !important;
+    }
+    .custom-height{
+        height: auto !important;
+    }
+
+}

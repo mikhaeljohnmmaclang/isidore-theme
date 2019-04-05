@@ -1,0 +1,133 @@
+
+@media(min-width:768px){
+    
+    .footer-img-thumb{
+        margin-top:-40px;
+        margin-bottom:-65px;
+    }
+    .rs-main-heading {
+        margin-top:-30px;
+}
+    .btn-container-discover-more{
+        margin-top:-5px!important;
+    }
+
+}
+
+/*closing of 768*/
+
+@media (min-width:1024px){
+    
+    .fernan-content{
+        font-size:14px;
+        margin-top:2%;
+    }
+    .blockquote-footer1{
+        font-size:12px;
+        margin-top:-2%;
+        margin-bottom:1px;
+    }    
+
+    .footer-img-thumb{
+        margin-top:-30px;
+        margin-bottom:-65px;
+    }
+    .rs-main-heading{
+        margin-top:12px;
+    }
+    .btn-container-discover-more{
+        margin-top:5px!important;
+    }
+    .news-desc {
+    font-size: 15px!important;
+}
+}
+
+/*closing of 1024*/
+
+
+@media (min-width:1366px){
+    .fernan-content{
+        font-size:20px;
+        margin-top:-2%;
+    }
+    .blockquote-footer1{
+        font-size:15px;
+        margin-top:2%;
+        margin-bottom:-3px;
+    }   
+    .btn-container-discover-more{
+        margin-top:5px!important;
+        font-size:20px!important;
+        margin-bottom:5px;
+    }
+}
+
+/*closing of 1366*/
+
+@media (min-width:1440px){
+    .fernan-content{
+        font-size:20px;
+        margin-top:5px!important;
+    }
+    .blockquote-footer1{
+        font-size:17px!important;
+        margin-top:2%;
+        margin-bottom:-2px;
+    }
+    .btn-discover-more-testimonials{
+        font-size:20px;
+        margin-top:-2%;
+    }
+    .news-desc{
+        font-size:20px!important;
+    }
+    .btn-discover-more-news {
+        font-size:20px;
+    }
+    .btn-container-discover-more{
+        margin-top:5px!important;
+        font-size:30px!important;
+    }
+    .rs-main-heading{
+        margin-top:10px;
+    }
+    .footer-img-thumb{
+        margin-top:-75px;
+        margin-bottom:-65px;
+    }
+    
+}
+
+
+/*closing of 1440px*/
+
+
+@media (min-width:2560px){
+    
+    .fernan-content{
+        font-size:40px!important;
+    }
+    .blockquote-footer1{
+        font-size:30px!important;
+        margin-top:4%!important;
+        margin-bottom:3.5%!important;
+    }
+    .btn-discover-more-testimonials{
+        font-size:30px!important;
+    }
+   
+    .btn-discover-more-news {
+        font-size:30px!important;
+    }
+    .footer-img-thumb{
+        margin-top:-140px!important;
+        margin-bottom:-65px;
+    }
+    .news-desc {
+    font-size: 35px!important;
+}
+}
+
+/*closing of 2560*/
+

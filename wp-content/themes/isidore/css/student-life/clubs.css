@@ -1,0 +1,62 @@
+.margin-top{
+    margin-top: 3%;
+}
+.heading-container{
+    padding: 1% 10% 1% 10%;
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #64C4B9;
+}
+
+
+.clubs-heading{
+    margin-top: 5%;
+    background-color:#F3F2F1;
+}
+.clubs-heading-h2{
+
+    text-align: center;
+    color:#64C4B9;
+    font-weight: bold;
+}
+.clubs-heading-content{
+    margin-top:40px;
+}
+
+.clubs-heading-p1{
+    font-size:14px!important;
+    text-justify:interword;
+}
+@media only screen and (min-width: 2300px) and (max-width: 2560px){
+    .heading {
+    font-size: 70px !important;
+    }
+    .clubs-desc{
+         font-size: 30px !important;
+    }
+}
+@media only screen and (max-width: 767px){
+    .clubs-heading-p1{
+        font-size:14px;
+        padding: 10px 20px 10px 20px;
+        text-justify:interword;
+    }
+}
+@media only screen and (min-width: 768px){
+
+    .clubs-heading-p1{
+        font-size:28px;
+        padding: 20px 70px 20px 70px;
+        text-justify:interword;
+    }
+}
+@media only screen and (min-width: 1360px){
+    .clubs-heading-p1{
+        font-size:28px!important;
+        padding: 50px 220px 50px 220px;
+        text-align: justify;
+    }
+}

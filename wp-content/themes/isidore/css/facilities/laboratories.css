@@ -1,0 +1,244 @@
+.btn-orange:hover{
+    text-decoration: none;
+    background-color: #ED8D68;
+    color: white;
+}
+.container-carousel{
+    padding: 0 !important;
+}
+
+@media (min-width: 320px) {
+    .btn-orange {
+        /*background-color: #ED8D68;*/
+        color: black;
+        padding: 2%;
+        border-radius: 5%;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .nav-list{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .box-div{
+        margin-top: -10%;
+    }
+    .owl-orange {
+        position: relative;
+        left: 86%;
+        z-index: 2;
+        width: 40px;
+        top: 10px;
+    }
+    .box-dash{
+        border: 2px solid gray;
+        border-style: dashed;
+        border-top: none;
+        border-top: none;
+        padding: 10%;
+        font-size: 12px;
+    }
+    .orange-box{
+        background-color: #ED8D68;
+        padding: 1%;
+        text-align: center;
+        font-family: Raleway-ExtraBold;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    .icon-comp-lab {
+        position: relative;
+        width: 26%;
+        right: -72%;
+        top: -30px;
+    }
+    .icon-science-lab{
+        position: relative;
+        width: 26%;
+        right: -72%;
+        top: -58px;
+    }
+    .icon-home-econ-lab{
+        position: relative;
+        width: 26%;
+        right: -72%;
+        top: -35px;
+    }
+    .breadcrumbs{
+        margin-top:5%;
+        margin-left:5%;
+    }
+    a.back-facilities{
+        color:#ED8D68;
+        font-weight:bolder;
+    }
+    a.back-facilities:hover{
+        color:#e4541b;
+        font-weight:bolder;
+    }
+    a.back-facilities1:focus{
+        color:#e4541b;
+        font-weight:bolder;
+    }
+}
+@media (min-width: 425px) {
+    .owl-orange {
+        left: 87%;
+        z-index: 2;
+        width: 47px;
+        top: 3px;
+    }
+    .icon-school {
+        width: 20%;
+        right: -79%;
+        top: -51px;
+    }
+}
+@media (min-width: 768px){
+    .box-div {
+        margin-top: 3%;
+    }
+    .box-dash{
+        font-size: 15px;
+    }
+    .owl-orange {
+        left: -6%;
+        z-index: 2;
+        width: 50px;
+    }
+    .icon-comp-lab {
+        width: 17%;
+    }
+    .icon-science-lab{
+        width: 17%;
+    }
+    .icon-home-econ-lab{
+        width: 17%;
+    }
+    .nav-list {
+        padding: 2%;
+    }
+    .btn-orange{
+        padding: 1%;
+    }
+    .breadcrumbs {
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+}
+@media (min-width: 992px) {
+    .icon-comp-lab {
+        width: 13%;
+        right: 15%;
+        top: 320px;
+    }
+    .icon-science-lab {
+        width: 12%;
+        right: 15%;
+        top: 365px;
+    }
+    .icon-home-econ-lab {
+        width: 13%;
+        right: 15%;
+        top: 260px;
+    }
+    .lower-border{
+        margin-top: 5%;
+    }
+}
+@media (min-width: 1024px) {
+    .lower-border {
+        margin-top: 5%;
+    }
+    .btn-orange{
+        padding: 3%;
+    }
+    .owl-orange {
+        left: -6%;
+        width: 55px;
+        top: -40px;
+    }
+    .nav-list {
+        padding: 3%;
+    }
+    .btn-orange{
+        padding: 1%;
+        letter-spacing: 2px;
+    }
+    .box-div {
+        margin-top: 0%;
+    }
+    .orange-box span{
+        font-size: 25px;
+    }
+    .box-dash p, .nav-list{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1190px) {
+    .nav-list {
+        padding: 2%;
+    }
+    .owl-orange{
+        left: -4%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .owl-orange{
+        top:-50px;
+        right: 5%;
+        width: 75px;
+    }
+    .box-dash {
+        font-size: 20px;
+    }
+    .orange-box span{
+        font-size: 35px;
+    }
+    .box-dash p, .btn-orange{
+        font-size: 25px;
+    }
+    .breadcrumbs{
+        font-size: 20px;
+    }
+    .icon-comp-lab{
+        top: 360px;
+    }
+    .icon-science-lab {
+        top: 425px;
+    }
+    .icon-home-econ-lab {
+        top: 300px;
+    }
+}
+@media (min-width: 2560px) {
+    .orange-box span{
+        font-size: 45px;
+    }
+    .box-dash p, .btn-orange{
+        font-size: 35px;
+    }
+    .owl-orange{
+        top: -76px;
+        width: 95px;
+    }
+    .icon-comp-lab{
+        top: 455px;
+    }
+    .icon-science-lab{
+        top: 505px
+    }
+    .breadcrumbs {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+

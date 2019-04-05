@@ -1,0 +1,224 @@
+.btn-orange:hover{
+    text-decoration: none;
+    background-color: #ED8D68;
+    color: white;
+}
+.container-carousel{
+    padding: 0 !important;
+}
+
+@media (min-width: 320px) {
+    .box-div{
+        margin-top: 5%;
+    }
+    .box-border{
+        border: 4px solid #B7B6B6;
+        padding: 5%;
+        font-size: 12px;
+        border-radius: 5px;
+        padding-bottom: 10%;
+    }
+    .guidance-text{
+        font-weight: bolder;
+        color: #ED8D68;
+        font-size: 20px;
+        padding-bottom: 2%;
+    }
+    .orange-box{
+        background-color: #ED8D68;
+        padding: 1%;
+        text-align: center;
+        font-family: Raleway-ExtraBold;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+    .icon-salad {
+        position: relative;
+        width: 29%;
+        right: -69%;
+        top: -38px;
+    }
+    .border-style{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .lower-border{
+        width: 150%;
+    }
+    .upper-border, .lower-border{
+        width: 150%;
+    }
+}
+@media (min-width: 375px) {
+    .icon-salad{
+        top:-45px
+    }
+}
+@media (min-width: 425px) {
+    .icon-salad {
+        width: 20%;
+        right: -79%;
+        top: -39px;
+    }
+}
+@media (min-width: 768px){
+    .box-div {
+        margin-top: 5%;
+    }
+    .box-border{
+        font-size: 15px;
+    }
+    .guidance-text{
+        font-size: 25px;
+    }
+    .icon-salad {
+        width: 25%;
+        right: -68%;
+        top: -70px;
+    }
+    .nav-list {
+        padding: 2%;
+    }
+    .btn-orange{
+        padding: 1%;
+    }
+}
+@media (min-width: 992px) {
+    .nav-list {
+        padding: 2%;
+    }
+    .icon-salad {
+        width: 13%;
+        right: 9%;
+        top: 604px;
+    }
+    .lower-border{
+        margin-top: 5%;
+    }
+    .box-border{
+        font-size: 17px !important;
+    }
+}
+@media (min-width: 1024px) {
+    .lower-border {
+        margin-top: 7%;
+    }
+    .nav-list {
+        padding: 3%;
+    }
+    .icon-salad {
+        width: 20%;
+        right: 13%;
+        top: 290px;
+    }
+    .btn-orange{
+        padding: 1%;
+        letter-spacing: 2px;
+    }
+    .upper-border, .lower-border{
+        width: 100%;
+    }
+    .box-div {
+        margin-top: 3%;
+    }
+    .box-border{
+        font-size: 20px !important;
+    }
+    .guidance-text{
+        font-size: 25px !important;
+    }
+}
+@media (min-width: 1190px) {
+    .nav-list {
+        padding: 2%;
+    }
+    .icon-salad {
+        width: 11%;
+        right: 8%;
+        top: 259px;
+    }
+    .box-border{
+        font-size: 17px !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .icon-salad {
+        top: 335px;
+        width: 20%;
+        right: 11%;
+    }
+    .box-border{
+        font-size: 25px !important;
+    }
+    .guidance-text{
+        font-size: 35px !important;
+    }
+}
+
+@media (min-width: 2560px) {
+    .icon-salad {
+        top: 455px;
+        width: 20%;
+        right: 11%;
+    }
+    .box-border{
+        font-size: 35px !important;
+    }
+    .guidance-text{
+        font-size: 45px !important;
+    }
+}
+
+.breadcrumbs{
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:3%;
+}
+
+a.back-facilities1a{
+    color:#ED8D68;
+    font-weight:bolder;
+}
+a.back-facilities1a:hover{
+    color:#e4541b;
+    font-weight:bolder;
+}
+a.back-facilities1b:hover{
+    color:#e4541b;
+    font-weight:bolder;
+}
+a.back-facilities1b:focus{
+    color:#e4541b;
+    font-weight:bolder;
+}
+a.back-facilities1b {
+    color:#ED8D68;
+    font-weight:bolder;
+}
+.breadcrumbs2{
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:3%;
+}
+a.back-facilities2a{
+    color:#ED8D68;
+    font-weight:bolder;
+}
+a.back-facilities2a:hover{
+    color:#e4541b;
+    font-weight:bolder;
+}
+a.back-facilities2b:hover{
+    color:#e4541b;
+    font-weight:bolder;
+}
+a.back-facilities2b:focus{
+    color:#e4541b;
+}
+a.back-facilities2b {
+    color:#ED8D68;
+    font-weight:bolder;
+}

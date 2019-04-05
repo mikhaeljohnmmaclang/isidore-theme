@@ -1,0 +1,246 @@
+body{
+    background-color: #fff !important;
+}
+
+.header-bannerx{
+    padding: 0;
+}
+.ba-description-container{
+    padding: 3%;
+
+}
+.desc-heading{
+    font-size:15px;
+    font-weight:bolder;
+}
+.bullets1{
+    font-size:12px;
+}
+.bullets2{
+    font-size:12px;
+}
+.baseline-assessment-container{
+    border: 1px solid #D9D8D8;
+    padding: 0px !important;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.baseline-assessment-heading-container{
+    background-color: #B2C627;
+    padding: 12px 3px 2px 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+@media (min-width: 320px){
+    .preschool-heading{
+        color: #6492FA;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .desc, .desc-heading{
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+    .baseline-assessment-heading{
+        color: white;
+        font-size: 12px;
+    }
+    .desc-container{
+        margin-top: -3%;
+        padding: 5% 1% 5% 2%;
+        border: 4px solid #B7B6B6;
+        border-style: dotted;
+        margin-bottom: -15px;
+    }
+    .paper-clip-graphics{
+        position: relative;
+        width: 10%;
+        top: 5px;
+        left: 94%;
+    }
+    .id-card-graphics{
+        position: relative;
+        width: 10%;
+        top: -10px;
+        left: -4%;
+    }
+    .business-card-graphics{
+        position: relative;
+        width: 10%;
+        top: -10px;
+        left: 81%;
+    }
+    .ba-description{
+        font-size: 12px;
+    }
+
+}
+@media (min-width: 375px) {
+    .paper-clip-graphics {
+        top: 5px;
+    }
+}
+@media (min-width: 425px) {
+    .id-card-graphics{
+        top: -10px;
+    }
+    .business-card-graphics{
+        top: -10px;
+    }
+}
+@media (min-width: 768px) {
+    .paper-clip-graphics {
+        top: 5px;
+    }
+    .id-card-graphics{
+        top: -15px;
+    }
+    .business-card-graphics{
+        top: -15px;
+    }
+    .preschool-heading{
+        font-size: 25px;
+    }
+    .desc, .desc-heading{
+        font-size: 20px;
+    }
+    .orange-box span{
+        font-size: 25px;
+    }
+    .bullets1{
+        font-size:15px;
+        padding-left:30%;
+    }
+    .bullets2{
+        font-size:15px;
+        padding-left:30%;
+    }
+}
+@media (min-width: 1024px){
+    .baseline-assessment-heading{
+        font-size: 15px;
+    }
+    .ba-description {
+        font-size: 15px;
+    }
+    .paper-clip-graphics {
+        top: 5px;
+    }
+    .id-card-graphics {
+        top: -25px;
+    }
+    .business-card-graphics {
+        top: -25px;
+        left: 84%;
+    }
+    .preschool-heading{
+        font-size: 25px;
+    }
+    .desc, .desc-heading{
+        font-size: 20px;
+    }
+    .header-banner {
+        height: 478px;
+    }
+    .bullets1{
+        font-size:18px;
+        padding-left:0;
+    }
+    .bullets2{
+        font-size:18px;
+        padding-left:0;
+    }
+}
+
+
+@media (min-width: 1366px) {
+    .header-banner {
+        height: 636px;
+    }
+    .bullets1{
+        font-size:21px;
+        padding-left:50px;
+    }
+    .bullets2{
+        font-size:21px;
+        padding-left:50px;
+    }
+    .desc-heading{
+        font-size: 25px;
+        font-weight:bolder;
+        padding-left:20%;
+    }
+    .preschool-heading {
+        font-size: 30px;
+    }
+    .id-card-graphics {
+        top: -70px;
+    }
+        
+    .business-card-graphics {
+        top: -70px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .paper-clip-graphics {
+        top: 5px;
+    }
+    .id-card-graphics {
+        top: -35px;
+    }
+    .business-card-graphics {
+        top: -35px;
+    }
+    .preschool-heading {
+        font-size: 35px;
+        margin-top:-30px;
+        margin-bottom:25px;
+    }
+    .desc, .desc-heading{
+        font-size: 25px;
+    }
+    .bullets1{
+        font-size:25px;
+    }
+    .bullets2{
+        font-size:25px;
+    }
+}
+@media (min-width: 2560px) {
+    .preschool-heading {
+        font-size: 45px;
+    }
+    .desc, .desc-heading{
+        font-size: 35px;
+    }
+    .paper-clip-graphics {
+        top: 10px;
+    }
+    .id-card-graphics {
+        top: -70px;
+    }
+    .business-card-graphics {
+        top: -70px;
+    }
+    .bullets1{
+        font-size:33px;
+        padding-left:50px;
+    }
+    .bullets2{
+        font-size:33px;
+        padding-left:50px;
+    }
+    
+    .preschool-heading {
+        font-size: 45px;
+        margin-top:-30px;
+        margin-bottom:25px;
+    }
+    .desc-heading{
+        font-size: 38px;
+        font-weight:bolder;
+        padding-left:20%;
+    }
+}

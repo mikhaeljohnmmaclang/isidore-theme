@@ -1,0 +1,323 @@
+.container-hero-spcourse{
+    height: 50em;
+    background-image: linear-gradient(rgba(7, 201, 103, 0.5), rgba(7, 204, 201, 0.5)),url(../images/assets/sing.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /*background-color: pink;*/
+    width: 67%;
+}
+
+h2.wetxt{
+    font-size: 4em;
+    font-family: Segoe UI light;
+}
+
+h1.talentstxt{
+    font-size: 5em;
+    font-weight: 800;
+}
+
+.firstcharacterss{
+    color: #459bbc;
+    float: left;
+    font-family: Edwardian Script ITC;
+    font-size: 150px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.fp-sp{
+    font-size: 1.5em !important;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 12%;
+
+}
+
+.fp-sptwo{
+    font-size: 1.5em !important;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5%;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 12%;
+}
+
+h1.header-sp{
+    font-family: 'Raleway', sans-serif;
+}
+
+.music{
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    color: #73D673;
+}
+
+.lowerm-graphics{
+    position: relative;
+    float: left;
+    width: 65%;
+    margin-top: -8%;
+    z-index: 12;
+    margin-left: -8%;
+}
+
+.lowerm-graphicss{
+    position: relative;
+    float: left;
+    width: 64%;
+    /* margin-top: -13%; */
+    z-index: 12;
+    margin-left: 44%;
+    margin-top: -14%
+}
+
+.leftm-graphics{
+    position: relative;
+    float: left;
+    width: 9%;
+    margin-top: 2%;
+    z-index: 12;
+    padding-left: 0%;
+    padding-top: 4%;
+    margin-left: -5%;
+}
+
+.leftm-graphicss{
+    position: relative;
+    float: right;
+    width: 9%;
+    margin-top: 2%;
+    z-index: 12;
+    padding-left: -2%;
+    padding-top: 4%;
+    margin-right: -4%
+}
+
+.header-sp{
+    font-family: Segoe UI;
+    font-weight: 900;
+    color: #73D673;
+    font-size: 3em;
+    padding-bottom: 10%;
+}
+
+
+
+/*media queries*/
+@media (min-width: 320px) {
+    .header-sp {
+        font-size: 20px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .music {
+        font-size: 20px !important;
+    }
+
+    .fp-sp {
+        font-size: 12px !important;
+        padding-left: 0%;
+        padding-right: 10%;
+    }
+
+    .fp-sptwo {
+        font-size: 12px !important;
+        padding-left: 0%;
+        padding-right: 10%;
+    }
+
+    .firstcharacterss {
+        font-size: 55px;
+        line-height: 47px;
+        padding-top: -24px;
+            margin-right: 10px;
+    }
+
+    .leftm-graphics {
+        width: 17% !important;
+    }
+
+    .leftm-graphicss {
+        width: 17% !important;
+    }
+
+    .border-style {
+        overflow-x: hidden !important;
+    }
+}
+@media (min-width: 768px) {
+    .header-sp {
+        font-size: 25px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .music {
+        font-size: 25px !important;
+    }
+
+    .fp-sp {
+        font-size: 15px !important;
+        padding: 2% 5% 2% 0% !important;
+    }
+
+    .fp-sptwo {
+        font-size: 15px !important;
+        padding-left: 0%;
+        padding-right: 5%;
+    }
+
+    .firstcharacterss {
+        font-size: 55px;
+        line-height: 47px;
+        padding-top: -24px;
+    }
+
+    .leftm-graphics {
+        width: 7% !important;
+        padding-left: 0% !important;
+        margin-left: -2%;
+        margin-top: 0%;
+    }
+
+    .leftm-graphicss {
+        width: 7% !important;
+        padding-left: 0% !important;
+        margin-left: -2%;
+        margin-top: 0%;
+    }
+
+    .border-style {
+        overflow-x: hidden !important;
+    }
+}
+@media (min-width: 1024px) {
+    .header-sp {
+        font-size: 25px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .music {
+        font-size: 25px !important;
+    }
+
+    .fp-sp {
+        font-size: 20px !important;
+        padding: 2% 5% 2% 0% !important;
+    }
+
+    .fp-sptwo {
+        font-size: 20px !important;
+        padding-left: 0%;
+        padding-right: 5%;
+    }
+
+    .firstcharacterss {
+        font-size: 55px;
+        line-height: 47px;
+        padding-top: -24px;
+    }
+
+    .leftm-graphics {
+        width: 7% !important;
+        padding-left: 0% !important;
+        margin-left: -2%;
+        margin-top: 0%;
+        padding-top: 0px !important;
+    }
+
+    .leftm-graphicss {
+        width: 7% !important;
+        padding-left: 0% !important;
+        margin-left: -2%;
+        margin-top: 0%;
+        padding-top: 0px !important;
+    }
+
+    .border-style {
+        overflow-x: hidden !important;
+    }
+}
+@media (min-width:1440px) {
+    .header-sp {
+        font-size: 35px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .music {
+        font-size: 35px !important;
+    }
+
+    .fp-sp {
+        font-size: 25px !important;
+        padding: 2% 5% 2% 0% !important;
+    }
+
+    .fp-sptwo {
+        font-size: 25px !important;
+        padding-left: 0%;
+        padding-right: 5%;
+    }
+
+    .firstcharacterss {
+        font-size: 55px;
+        line-height: 47px;
+        padding-top: -24px;
+    }
+
+    .leftm-graphics {
+        width: 7% !important;
+        padding-left: 0% !important;
+        margin-left: -2%;
+        margin-top: 0%;
+        padding-top: 0px !important;
+    }
+
+    .leftm-graphicss {
+        width: 7% !important;
+        padding-left: 0% !important;
+        margin-left: -2%;
+        margin-top: 0%;
+        padding-top: 0px !important;
+    }
+
+    .border-style {
+        overflow-x: hidden !important;
+    }
+}
+@media (min-width: 2560px) {
+    .header-sp {
+        font-size: 45px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .music {
+        font-size: 45px !important;
+    }
+
+    .fp-sp {
+        font-size: 35px !important;
+        padding: 2% 5% 2% 0% !important;
+    }
+
+    .fp-sptwo {
+        font-size: 35px !important;
+        padding-left: 0%;
+        padding-right: 5%;
+    }
+
+}

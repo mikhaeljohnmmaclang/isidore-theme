@@ -1,0 +1,883 @@
+/*preschool css*/
+
+/*.container-hero-preschool{
+	width: 100%;
+	height:50em;
+	background-image: url(../images/assets/pr-one.jpg);
+	background-size: cover;
+}*/
+.firstcharacter {
+  color: #459bbc;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.upper-border-gradeschool{
+    width: 100%;
+    height: 5em !important;
+}
+
+.container-hero-preschool{
+    width: 100%;
+    height: 45em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+.fp-pr{
+	font-size: 1.2em !important;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 5%;
+	text-align: justify;
+ /* padding-left: 5%;*/
+  padding-right: 12%;
+
+}
+
+.fp-prtwo{
+	font-size: 1.2em !important;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 5%;
+  /*padding-left: 5%;*/
+  padding-right: 12%;
+
+}
+
+.pr-bullet{
+	font-size: 1.2em !important;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 10%;
+}
+
+.left-graphics{
+	position: relative;
+    float: left;
+    width: 25% !important;
+    margin-top: -8%;
+    z-index: 12;
+    margin-left: -16%;
+}
+
+.left-graphicss{
+	position: relative;
+    float: left;
+    width: 25% !important;
+    margin-top: 108%;
+    z-index: 12;
+    margin-left: -25%;
+ }
+
+ .left-graphicsss{
+	position: relative;
+    float: left;
+    width: 25% !important;
+    margin-top: 224%;
+    z-index: 12;
+    margin-left: -25%;
+ }
+
+.img-contain{
+	width: 50%;
+}
+
+.img-contains{
+	width: 50%;
+	margin-left: 50%;
+}
+
+img.right-graphics{
+	 position: relative;
+      float: right;
+      width: 25% !important;
+      margin-top: -8%;
+      z-index: 12;
+      padding-left: 0%;
+     margin-left: 17%!important;
+      margin-right: -13%;
+}
+
+img.right-graphicss{
+	 position: relative;
+      float: right;
+      width: 25% !important;
+      margin-top: 108%;
+      z-index: 12;
+      padding-left: 0%;
+     margin-left: 33% !important;
+    margin-right: -44%;
+    margin-top: 105%;
+}
+
+img.right-graphicsss{
+	 position: relative;
+      float: right;
+      width: 25% !important;
+      margin-top: 224%;
+      z-index: 12;
+      padding-left: 0%;
+      margin-left: 50% !important;
+      margin-right: -22%;
+}
+
+/*.left-graphicmone{
+	opacity: 0.0;
+}
+
+.left-graphicmtwo{
+	opacity: 0.0;
+}
+
+.left-graphicmthree{
+	opacity: 0.0;
+}*/
+
+.pr-bullet-contents{
+	background-color: white; 
+	border-style: dashed;
+    border-color: #d2d1d1; 
+    padding-bottom: 9%;
+}
+
+.pr-contents{
+	padding-top: 5% !important;
+	
+}
+
+/*p.pr-bullet{
+	font-size: 2.5em !important;
+}*/
+
+
+p.pr-descrip{
+	font-size: 1.3em;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+    text-justify: inter-word;
+    padding-left: 5%;
+}
+
+h2.pr-header{
+  font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	padding-top: 5%;
+  padding-left: 5%;
+}
+
+.pr-descrip{
+	padding: 1%;
+	padding-right: 15%;
+}
+
+
+
+@media only screen and (max-width: 360px) {
+.fp-pr{
+	padding-top: 5%;
+	font-size: 15px !important;
+}
+
+
+.container-hero-preschool{
+    width: 100%;
+    height: 20em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+
+/*img.pr-hero{
+	width: 100%;
+	height:20.5em !important;
+}*/
+
+img.left-graphics{
+	 position: relative;
+     float: left;
+     width: 50% !important;
+     margin-top: -8%;
+     z-index: 12;
+     margin-left: -15%!important;
+}
+
+img.right-graphics{
+	 position: relative;
+      float: right;
+      width: 50% !important;
+      margin-top: -8%;
+      z-index: 12;
+      padding-left: 0%;
+      margin-left: 50%;
+      margin-right: -25%;
+}
+
+.content-wordss{
+	padding-left: -5%;
+}
+
+/*li.pr-bullet{
+	font-size: 16px!important;
+	margin-left: 20%;
+
+}*/
+
+.pr-header{
+	font-size: 25px;
+	margin-left: -6%;
+}
+
+.pr-descrip{
+	padding: 2%;
+	margin-left: -14%;
+    font-size: 12px !important;
+}
+
+li.pr-bullet {
+    font-size: 15px;
+    margin-left: 16%;
+}
+}
+
+@media only screen and (max-width: 411px) {
+
+/*img.pr-hero{
+	width: 100%;
+	height:20.5em;
+}*/
+
+.container-hero-preschool{
+    width: 100%;
+    height: 20em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+
+li.pr-bullet {
+    font-size: 15px !important;
+    margin-left: 8%!important;
+}
+
+.pr-header{
+	font-size: 25px;
+	margin-left: -6%;
+	padding-top: 15%;
+}
+
+
+
+.pr-descrip{
+	font-size: 15px;
+	padding: 5%;
+	margin-left: -14%;
+}
+
+img.left-graphics{
+	 position: relative;
+     float: left;
+     width: 45% !important;
+     margin-top: -8%;
+     z-index: 12;
+     margin-left: -10%!important;
+}
+
+img.left-graphicss{
+	position: relative;
+    float: left;
+    width: 45% !important;
+    margin-top: 196%;
+    z-index: 12;
+    margin-left: -45%;
+}
+
+.left-graphicsss {
+    position: relative;
+    float: left;
+    width: 45% !important;
+    margin-top: 403%;
+    z-index: 12;
+    margin-left: -45%;
+}
+
+img.right-graphics{
+	 position: relative;
+    float: right;
+    width: 45% !important;
+    margin-top: -8%;
+    z-index: 12;
+    margin-left: -20%!important;
+}
+
+img.right-graphicss{
+	 position: relative;
+    float: right;
+    width: 45% !important;
+    margin-top: 200%;
+    z-index: 12;
+    margin-left: -20%!important;
+    margin-right: -28%;
+}
+
+img.right-graphicsss{
+	position: relative;
+    float: right;
+    width: 45% !important;
+    margin-top: 408%;
+    z-index: 12;
+    padding-left: 0%;
+    margin-left: 50% !important;
+    margin-right: -22%
+}
+
+.fp-pr{
+	font-size: 15px !important;
+}
+}
+
+@media only screen and (max-width: 320px) {
+img.pr-hero{
+	width: 100% !important;
+	height:20.5em !important;
+}
+ li.pr-bullet {
+    font-size: 12px !important;
+    /*margin-left: 20%;*/
+}
+
+.pr-header{
+	font-size: 18px!important;
+	margin-left: -9%;
+	padding-top: 15%;
+}
+
+p.pr-descrip{
+	font-size: 12px;
+	padding: -1%;
+	margin-left: -14%;
+}
+
+.fp-pr{
+	font-size: 14px !important;
+}
+}
+
+@media only screen and (max-width: 414px) {
+ /*img.pr-hero{
+	width: 100%;
+	height:20.5em;
+}*/
+
+.container-hero-preschool{
+    width: 100%;
+    height: 20em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+
+li.pr-bullet {
+    font-size: 15px;
+    margin-left: 20%;
+}
+
+.pr-header{
+	font-size: 23px;
+	margin-left: -9%;
+	padding-top: 15%;
+}
+
+p.pr-descrip{
+	font-size: 12px;
+	padding: 5%;
+	margin-left: -11%;
+}
+
+.fp-pr{
+	font-size: 14px !important;
+}
+}
+
+@media only screen and (max-width: 768px) {
+/*img.pr-hero{
+	width: 100%;
+	height:29.5em;
+}*/
+
+.container-hero-preschool{
+    width: 100%;
+    height: 25em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+
+li.pr-bullet {
+    font-size: 1em;
+    margin-left: 3%;
+}
+
+.pr-header{
+	font-size: 22px;
+	margin-left: 0%;
+   
+}
+
+p.pr-descrip{
+	font-size: 15px;
+    margin-left: -11%;
+    /*padding-left: 0%;
+    padding-right: 0%;*/
+}
+
+img.left-graphics{
+	margin-left: -10%;
+}
+
+img.right-graphics{
+	margin-right: -7%;
+}
+
+.pr-bullet{
+	padding-right: 3%;
+}
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+/*img.pr-hero{
+	width: 100%;
+	height:27.5em !important;
+}*/
+
+
+
+
+content-words{
+	padding-top: 5%;
+}
+li.pr-bullet {
+   	font-size: 1.4em;
+   }
+
+
+
+#k-two{
+	padding-right: 10% !important;
+	
+}
+
+img.left-graphics{
+	margin-left: -10% !important;
+}
+
+img.right-graphics{
+	margin-right: -7% !important;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+.container-hero-preschool{
+    width: 100%;
+    height: 19em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+
+.fp-pr{
+	font-size: 15px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 425px) {
+.fp-pr{
+	font-size: 12px !important;
+    padding-right: 11%;
+    text-align: justify;
+    margin-left: -10%;
+}
+
+.fp-prtwo{
+	font-size: 12px !important;
+    padding-right: 10%;
+    text-align: justify;
+    margin-left: -10% !important;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    .container-hero-preschool{
+        width: 100%;
+        height: 45em !important;
+        background-image: url(../images/assets/banner-pr.png);
+        background-size: cover;
+
+    }
+}
+
+/*new upadtes*/
+
+@media only screen and (min-width: 320px) {
+  .header-gr {
+    font-family: Segoe UI;
+    font-weight: 900;
+    color: #459bbc;
+    font-size: 25px;
+    padding-bottom: 10%;
+}
+
+.fp-pr {
+    font-size: 12px !important;
+    padding-right: 5%;
+    text-align: justify;
+    margin-left: -10%;
+}
+
+li.pr-bullet {
+    font-size: 1em;
+    margin-left: -3%;
+}
+
+p.pr-descrip {
+    font-size: 12px !important;
+    /*margin-left: -11%;*/
+   padding-left: 0%;
+   padding-right: 1%; */
+}
+}
+
+@media only screen and (min-width: 768px){
+ .header-gr {
+    font-family: Segoe UI;
+    font-weight: 900;
+    color: #459bbc;
+    font-size: 45px;
+    padding-bottom: 10%;
+}
+
+.fp-pr {
+    font-size: 15px !important;
+    padding-right: 11%;
+    text-align: justify;
+    margin-left: -10%;
+    padding-left: 11%;
+}
+
+.fp-prtwo {
+    font-size: 15px !important;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5%;
+    /* padding-left: 5%; */
+    padding-right: 12%;
+}
+
+li.pr-bullet {
+    font-size: 15px;
+    margin-left: 3%;
+}
+
+h2.pr-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 20px;
+    margin-left: -12%;
+}
+
+.fp-prtwo {
+    font-size: 12px !important;
+    padding-right: 5%;
+    text-align: justify;
+    margin-left: -18% !important;
+}
+
+p.pr-descrip {
+    font-size: 15px;
+    /* margin-left: -11%; */
+    margin-left: -18%;
+    padding-left: 10%;
+    padding-right: 6%;
+}
+
+}
+
+@media only screen and (min-width: 1024px){
+
+  p.pr-descrip {
+    font-size: 20px !important;
+    /* margin-left: -11%; */
+    margin-left: -18%;
+    padding-left: 5%;
+    padding-right: 6%;
+}
+.fp-pr {
+    font-size: 20px !important;
+    padding-right: 11%;
+    text-align: justify;
+    margin-left: -10%;
+    padding-left: 11%;
+}
+
+.fp-prtwo {
+    font-size: 20px !important;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5%;
+    /* padding-left: 5%; */
+    padding-right: 12%;
+}
+
+li.pr-bullet {
+    font-size: 20px !important;
+    margin-left: 3%;
+}
+
+h2.pr-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-left: 0%;
+    font-size: 25px;
+    margin-right: -34%;
+    margin-left: -8%;
+}
+
+p.pr-descrip {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 5%;
+}
+}
+
+@media only screen and (min-width: 1440px){
+.fp-pr {
+    font-size: 25px !important;
+    padding-right: 11%;
+    text-align: justify;
+    margin-left: -10%;
+    padding-left: 11%;
+}
+
+.fp-prtwo {
+    font-size: 25px !important;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5%;
+    /* padding-left: 5%; */
+    padding-right: 12%;
+}
+
+li.pr-bullet {
+    font-size: 25px !important;
+    margin-left: 3%;
+}
+
+h2.pr-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 35px;
+    margin-left: -13%;
+}
+
+.header-gr {
+    font-family: Segoe UI;
+    font-weight: 900;
+    color: #459bbc;
+    font-size: 55px;
+    padding-bottom: 10%;
+}
+
+.gr-bullet-contents {
+    background-color: white;
+    border-style: dashed;
+    border-color: #d2d1d1;
+    padding-bottom: 9%;
+    margin-left: 0%;
+    margin-right: -11%;
+}
+
+p.pr-descrip {
+    font-size: 25px !important;
+    /* margin-left: -11%; */
+    margin-left: -18%;
+    padding-left: 10%;
+    padding-right: 6%;
+}
+
+}
+
+@media only screen and (min-width: 2560px){
+.header-gr {
+    font-family: Segoe UI;
+    font-weight: 900;
+    color: #459bbc;
+    font-size: 85px;
+    padding-bottom: 10%;
+}
+
+.fp-pr {
+    font-size: 35px !important;
+    padding-right: 11%;
+    text-align: justify;
+    margin-left: -10%;
+    padding-left: 11%;
+}
+
+.fp-prtwo {
+    font-size: 35px !important;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 5%;
+    /* padding-left: 5%; */
+    padding-right: 12%;
+}
+
+li.pr-bullet {
+    font-size: 35px !important;
+    margin-left: 3%;
+}
+
+.content-words {
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+.gr-bullet-contents {
+    background-color: white;
+    border-style: dashed;
+    border-color: #d2d1d1;
+    padding-bottom: 9%;
+    margin-left: -55%;
+    margin-right: -72%;
+}
+
+h2.pr-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 5%;
+   padding-left: 9%;
+    font-size: 45px;
+}
+
+p.pr-descrip {
+    font-size: 35px !important;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 14% !important;
+}
+
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 115%;
+   height: 39.9em;
+}
+
+}
+
+@media only screen and (min-width: 375px){
+
+  .fp-pr {
+   /* font-size: 12px !important;*/
+    padding-right: 2%;
+    text-align: justify;
+    margin-left: -7%;
+}
+
+.fp-prtwo {
+    font-size: 12px;
+    padding-right: 2%;
+    text-align: justify;
+    margin-left: -10% !important;
+}
+
+p.pr-descrip {
+    font-size: 12px;
+    /*margin-left: -11%;*/
+   padding-left: 0%;
+  padding-left: 3%;
+}
+}
+
+@media only screen and (min-width: 425px){
+
+p.pr-descrip {
+    font-size: 12px;
+    /*margin-left: -11%;*/
+   margin-left: -18%;
+   padding-left: 10%;
+    padding-right: 6%;
+}
+  .fp-pr {
+   /* font-size: 15px !important;*/
+    padding-right: 5%;
+    text-align: justify;
+    margin-left: -18%;
+}
+
+.fp-prtwo {
+    font-size: 15px;
+    padding-right: 5%;
+    text-align: justify;
+    /*margin-left: -18% !important;*/
+    padding-left: 5%;
+}
+
+li.pr-bullet {
+    font-size: 1em;
+    margin-left: 3%;
+}
+}
+
+/*@media only screen and (min-width: 888px) {
+
+.container-hero-preschool{
+    width: 100%;
+    height: 30em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+}*/
+
+/*@media only screen and (min-width: 880px) {
+
+.container-hero-preschool{
+    width: 100%;
+    height: 30em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+}*/
+
+/*@media only screen and (min-width: 878px) {
+
+.container-hero-preschool{
+    width: 100%;
+    height: 30em !important;
+	background-image: url(../images/assets/banner-pr.png);
+	background-size: cover;
+
+}
+}*/
